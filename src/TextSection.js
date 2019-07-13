@@ -2,7 +2,7 @@ import React from 'react';
 
 function TextSection(props) {
     return (
-        <div class="textSection">
+        <div className="textSection">
             {props.text}
         </div>
     )

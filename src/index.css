@@ -28,12 +28,34 @@ code {
   font-size: 12px;
  }
  
- .textSection {
-   text-align: justify;
-   font-size: 20px;
+.textSection {
+  text-align: justify;
+  font-size: 20px;
    
- }
+}
 
- .main {
-   height: 80%;
- }
+.main {
+  height: 80%;
+}
+
+.licznik {
+  margin:20px 0px;
+  display: inline-block;
+}
+
+.licznik button {
+  display:inline-block;
+  padding:5px 10px;
+  margin: 5px;
+  background:green;
+  color:#ddd;
+  border:solid 1px;
+}
+
+.counter {
+  display:inline;
+  margin: 5px 15px;
+  padding: 2px 20px;
+  border: solid white;
+}
+
