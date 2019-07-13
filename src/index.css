@@ -59,3 +59,31 @@ code {
   border: solid white;
 }
 
+.about {
+  text-align: left;
+  margin: 50px 0px;
+}
+
+.navbar {}
+.navbar li {
+  display : inline-block;
+  height:50px;
+  line-height:50px;
+  font-size:18px;
+  min-width:90px;
+}
+.navbar a {
+  color:white;
+  text-decoration:none;
+  display:block;
+}
+.navbar a:hover {
+  background-color:#333;
+}
+.navbar ul {
+  background-color:black;
+  list-style:none;
+  text-align:center;
+  padding:0;
+  margin:0;
+}
